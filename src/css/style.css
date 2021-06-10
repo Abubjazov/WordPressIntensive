@@ -40,7 +40,7 @@ h2.title {
     text-transform: uppercase;
 }
 
-.promo .promo_btn {
+.promo .promo_btn, .gift .promo_btn {
     color: #FFFFFF;
     display: block;
     margin: 0 auto;
@@ -55,6 +55,10 @@ h2.title {
     text-transform: uppercase;
     text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
     cursor: pointer;
+}
+
+.gift .promo_btn {
+    margin-top: 51px;
 }
 
 .logo .logo_img {
@@ -235,4 +239,24 @@ h2.title {
     font-family: Roboto;
     font-weight: 300;
     font-size: 17px;    
+}
+
+.gift {
+    min-height: 631px;
+    padding: 88px 0 88px 0;
+    background-color: #EFEFEF;
+}
+
+.gift .gift_icon {
+    display: block;
+    margin: 0 auto;
+}
+
+.gift .gift_desc {
+    margin-top: 45px;
+    color: #252525;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
 }
