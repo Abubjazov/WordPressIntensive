@@ -112,7 +112,7 @@ h2.title {
     padding: 85px 0 75px 0;
 }
 
-.waiting .waiting_header {
+.waiting .waiting_header, .finish .finish_header {
     color: #252525;
     font-family: Roboto;
     font-weight: normal;
@@ -121,7 +121,11 @@ h2.title {
     text-transform: uppercase;
 }
 
-.waiting .waiting_divider {
+.finish .finish_header {
+    color: #FFFFFF;
+}
+
+.waiting .waiting_divider, .finish .finish_divider {
     background: #F9BF3B;
     display: block;
     margin: 0 auto;
@@ -196,3 +200,39 @@ h2.title {
      left: -240px;
      z-index: -1;
  }
+
+.finish {
+    min-height: 450px;
+    padding: 85px 0 69px 0;
+    background: url(../img/2_bg.jpg) center center/cover no-repeat;
+}
+
+.finish .finish_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 39px;
+}
+
+.finish .finish_wrapper .finish_item {
+    width: 204px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 118px;
+    height: 118px;
+    background-color: #B4E2FF;
+    border-radius: 100%;
+} 
+
+.finish .finish_wrapper .finish_desc {
+    text-align: center;
+    margin-top: 25px;
+    color: #EFEFEF;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 17px;    
+}
